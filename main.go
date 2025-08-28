@@ -34,7 +34,7 @@ func main() {
 	}
 
 	// Запуск сервера
-	fmt.Printf("Сервер запущен на порту %s...\n", port)
+	fmt.Printf("Сервер запустился на порту %s...\n", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
